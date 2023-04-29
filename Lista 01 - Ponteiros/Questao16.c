@@ -18,7 +18,7 @@ int compare(const void * a, const void * b){
 int main(void){
     int n, *x; // A quantidade de valores a ser lidos
     double time_spent = 0.0;
-    clock_t begin = clock();
+    clock_t begin = clock(); // Início do tempo marcado
     
     x = malloc(30 * sizeof(int)); // Fazendo a alocação de memória
     for(int i = 29; i >= 0; i--){
@@ -31,7 +31,7 @@ int main(void){
     
     free(x); // Liberando memória
 
-    clock_t end = clock();
+    clock_t end = clock(); // Fim do tempo marcado
     time_spent += (double)(end - begin) / CLOCKS_PER_SEC; // Checagem do tempo corrido até a execução do programa.
     printf("\nTempo de compilacao: %f segundos", time_spent); 
 
