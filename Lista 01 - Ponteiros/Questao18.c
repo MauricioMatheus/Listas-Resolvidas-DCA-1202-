@@ -16,7 +16,7 @@ multiplica_matrizes(int **A, int **B, int **C, int nl_A, int nc_A, int nc_B){
     for(int i = 0; i < nl_A; i++){
         for(int j = 0; j < nc_B; j++){ // Sabendo que nc_A == nl_B
             for(int k = 0; k < nc_A; k++){
-                C[i][j] = C[i][j] + A[i][k] * B[k][j]; // Algorítmo da multiplicação de matrizes
+                C[i][j] = C[i][j] + A[i][k] * B[k][j]; // Algorítmo para multiplicação matricial
             } 
         }
     }
