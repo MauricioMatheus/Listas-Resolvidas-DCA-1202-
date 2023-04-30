@@ -10,7 +10,7 @@ resultado deve ficar armazenado em C).*/
 // multiplica_matrizes(A, B, C, 2, 3, 4);
 
 #include <stdio.h>
-#include <stdlib.h>
+
 
 multiplica_matrizes(int **A, int **B, int **C, int nl_A, int nc_A, int nc_B){
     for(int i = 0; i < nl_A; i++){
