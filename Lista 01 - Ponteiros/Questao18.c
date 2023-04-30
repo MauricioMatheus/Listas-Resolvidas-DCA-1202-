@@ -20,7 +20,7 @@ multiplica_matrizes(int **A, int **B, int **C, int nl_A, int nc_A, int nc_B){
             } 
         }
     }
-
+    // asa
     return C;
 }
 
@@ -29,7 +29,7 @@ int main(void){
     nl_A = nl_C = 2; // A matriz C tem o mesmo número de linhas que a matriz A, em razão da multiplicação de matrizes.
     nc_A = 3;
     nl_B = 3;
-    nc_B = nc_C = 2; // A matriz C tem o mesmo número de colunas que a matriz A, em razão da multiplicação de matrizes.
+    nc_B = nc_C = 2; // A matriz C tem o mesmo número de colunas que a matriz B, em razão da multiplicação de matrizes.
 
     // Alocando a matriz A (2x3)
     A = malloc(nl_A*sizeof(int*)); // Alocando o bloco auxiliar da matriz
