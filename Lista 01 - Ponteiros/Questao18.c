@@ -20,7 +20,6 @@ multiplica_matrizes(int **A, int **B, int **C, int nl_A, int nc_A, int nc_B){
             } 
         }
     }
-    // asa
     return C;
 }
 
