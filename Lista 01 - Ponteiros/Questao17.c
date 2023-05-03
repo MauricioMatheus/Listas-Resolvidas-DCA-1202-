@@ -5,7 +5,7 @@ contiver os elementos 3, 5, -3 e 1, o vetor de soma terá valores resultantes ig
 função deve receber 4 argumentos: os nomes dos três vetores e o número de elementos
 presentes em cada vetor. Exemplo: */
 
-//soma_vetores(vet1, vet2,s resultado, 4);
+//soma_vetores(vet1, vet2, resultado, 4);
 
 #include <stdio.h>
 #include <stdlib.h>
