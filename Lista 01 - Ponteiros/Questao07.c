@@ -1,5 +1,5 @@
 /*Considerando a declaração int mat[4], *p, x;, quais das seguintes expressões são válidas?
-Justifique. */
+Justifique.*/
 
 p = mat + 1; // Válido. p está sendo definido como um ponteiro para mat + 1, ou mat[5];
 

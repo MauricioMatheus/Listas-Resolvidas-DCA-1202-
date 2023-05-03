@@ -5,14 +5,14 @@ de B). O resultado da multiplicação deve ficar armazenado em C. Crie um progra
 sua implementação, capaz de utilizar a função de multiplicação e imprimir as três matrizes. A
 função criada para multiplicação não deve realizar nenhum tipo de saída de dados no terminal.
 Exemplo: para multiplicar duas matrizes (A e B) de dimensões 2x3 e 3x4, respectivamente (o
-resultado deve ficar armazenado em C).*/
+resultado deve ficar armazenado em C). */
 
 // multiplica_matrizes(A, B, C, 2, 3, 4);
 
 #include <stdio.h>
 
 
-multiplica_matrizes(int **A, int **B, int **C, int nl_A, int nc_A, int nc_B){
+int multiplica_matrizes(int **A, int **B, int **C, int nl_A, int nc_A, int nc_B){
     for(int i = 0; i < nl_A; i++){
         for(int j = 0; j < nc_B; j++){ // Sabendo que nc_A == nl_B
             for(int k = 0; k < nc_A; k++){

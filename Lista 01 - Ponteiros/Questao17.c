@@ -3,15 +3,14 @@ correspondentes de outros dois vetores (os tamanhos dos vetores devem ser fornec
 usuário). Por exemplo, se o primeiro vetor contiver os elementos 1, 3, 0 e -2, e o segundo vetor
 contiver os elementos 3, 5, -3 e 1, o vetor de soma terá valores resultantes iguais a 4, 8, -3 e -1. A
 função deve receber 4 argumentos: os nomes dos três vetores e o número de elementos
-presentes em cada vetor. Exemplo:
-*/
+presentes em cada vetor. Exemplo: */
 
-//soma_vetores(vet1, vet2, resultado, 4);
+//soma_vetores(vet1, vet2,s resultado, 4);
 
 #include <stdio.h>
 #include <stdlib.h>
 
- soma_vetores(int *vetor1, int *vetor2, int *soma, int n){ // Função com 4 argumentos para somar 2 vetores
+ int soma_vetores(int *vetor1, int *vetor2, int *soma, int n){ // Função com 4 argumentos para somar 2 vetores
     for(int i = 0; i < n; i++){
         soma[i] = vetor1[i] + vetor2[i];
     }
